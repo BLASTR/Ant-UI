@@ -1,9 +1,3 @@
-import React from 'react';
-
-const CustomerMessages: React.FC = () => (
-  <>
-    <h1>Customer messages</h1>
-  </>
-);
+import CustomerMessages from '../components/pages/CustomerMessagesPage/CustomerMessagesPage';
 
 export default CustomerMessages;
