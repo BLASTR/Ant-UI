@@ -1,9 +1,12 @@
 import React from 'react';
+import { PageHeaderWrapper } from '@ant-design/pro-layout';
+
+import NewMessageForm from '../components/Messages/NewMessageForm';
 
 const NewMessage: React.FC = () => (
-  <>
-    <h1>New Message</h1>
-  </>
+  <PageHeaderWrapper>
+    <NewMessageForm />
+  </PageHeaderWrapper>
 );
 
 export default NewMessage;
