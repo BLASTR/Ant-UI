@@ -105,13 +105,18 @@ export default {
           path: '/customer-message',
           name: 'customerMessage',
           icon: 'smile',
-          component: './CustomerMessages',
           routes: [
+            {
+              path: '/customer-message/list',
+              name: 'list',
+              icon: 'smile',
+              component: './CustomerMessages',
+            },
             {
               path: '/customer-message/new',
               name: 'new',
               icon: 'smile',
-              component: './CustomerMessages',
+              component: './NewMessage',
             }
           ]
         },

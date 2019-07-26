@@ -1,6 +1,7 @@
 export default {
   'menu.welcome': 'Welcome',
-  'menu.customerMessage': 'Customer message',
+  'menu.customerMessage': 'Messages',
+  'menu.customerMessage.list': 'Message list',
   'menu.customerMessage.new': 'Add new message',
   'menu.more-blocks': 'More Blocks',
   'menu.home': 'Home',
