@@ -132,6 +132,9 @@ export default {
   // Theme for antd: https://ant.design/docs/react/customize-theme-cn
   theme: {
     'primary-color': primaryColor,
+    'btn-default-color': primaryColor,
+    'btn-default-bg': 'transparent',
+    'btn-default-border': primaryColor,
   },
   define: {
     ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION:
